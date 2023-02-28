@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+body {
+    background-color: lightblue;
+}
+
+.nav {
+    background-color: midnightblue;
+}
+
+
+
+.columna-izq {
+    position: relative;
+    background-color: #3E8DD3;
+    padding: 40px;
+
+}
+
+.perfil {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+
+}
+
+.perfil .perfil-imagen {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.perfil .perfil-imagen img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.perfil-texto h2 {
+    color: whitesmoke;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5em;
+    font-weight: 600;
+
+}
+
+.perfil-texto h2 span {
+    font-size: 0.7em;
+    font-weight: 250;
+}
+
+.contacto {
+    padding-top: 40px;
+
+
+}
+
+.titulo {
+
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+
+.contacto ul {
+    position: relative;
+}
+
+.contacto ul li {
+    position: relative;
+    list-style: none;
+    margin-top: 10px;
+
+    cursor: pointer;
+}
+
+.contacto ul li .icono {
+    display: inline-block;
+    color: darkblue;
+    font-size: 20px;
+    width: 30px;
+
+}
+
+.contacto ul li span {
+    color: white;
+    font-weight: 300;
+}
+
+.contacto.educacion .titulo {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+
+
+.contacto.educacion li {
+    margin-bottom: 15px;
+}
+
+.contacto.educacion h5 {
+    color: darkblue;
+    font-weight: 900;
+
+
+}
+
+.contacto.educacion h4 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contacto.educacion h3 {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 900;
+
+}
+
+.columna-der {
+    position: relative;
+    background-color: lightyellow;
+    padding: 40px;
+
+}
+
+.sobre-mi {
+    margin-bottom: 50px;
+
+
+}
+
+.sobre-mi .titulo-perfil {
+    color: darkblue;
+    font-size: 2.3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+
+.sobre-mi .estilos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+}
+
+.sobre-mi .estilos .anio {
+    min-width: 150px;
+    margin-right: 50px;
+}
+
+.sobre-mi .estilos .anio h5 {
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.sobre-mi .estilos .texto h4 {
+    text-transform: uppercase;
+    color: #3E8DD3;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.habilidades .estilos {
+
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.habilidades .estilos h4 {
+    text-transform: uppercase;
+    color: darkblue;
+    font-weight: 500;
+}
+
+p {
+    color: #0A0901;
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+
+.popup {
+    background: rgba(0, 0, 0, 0.6);
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.popup-contenido {
+
+
+    height: 250px;
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+
+
+.popup-contenido span {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.popup-contenido ul li {
+    list-style: none;
+    margin-top: 35px;
+}
+
+.cerrar {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
